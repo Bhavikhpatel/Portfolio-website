@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
             { name: "Pandas", image: "../assets/images/AI Libraries and Frameworks/pandas.png" },
             { name: "MatplotLib", image: "../assets/images/AI Libraries and Frameworks/matpoltlib.png" },
             { name: "Scikit-learn", image: "../assets/images/AI Libraries and Frameworks/scikit-learn.png" },
-            { name: "TensorFlow", image: "../assets/images/AI Libraries and Frameworks/Tensorflow.png" },
+            { name: "TensorFlow", image: "../assets/images/AI Libraries and Frameworks/TensorFlow.png" },
             { name: "LangChain", image: "../assets/images/AI Libraries and Frameworks/langchain.svg" },
             { name: "Agno", image: "../assets/images/AI Libraries and Frameworks/agno.jpg" },
         ],
