@@ -1,0 +1,123 @@
+:root {
+    --black: #000000;
+    --red: #CF0A0A;
+    --white: #EEEEEE;
+    --main-font: 'JetBrains Mono', monospace;
+}
+
+body, 
+h1, h2, h3, h4, h5, h6,
+p, a, span, div, 
+button, input, textarea, 
+.navbar, .logo, .nav-links,
+.page-title, .section-title,
+.skill-name, .certificate-title,
+.project-title, .experience-title {
+    font-family: var(--main-font);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.back-btn, 
+.submit-btn, 
+.download-btn,
+button[type="submit"] {
+    background-color: var(--red);
+    color: var(--white);
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+    font-family: var(--main-font);
+    font-weight: 500;
+}
+
+.back-btn:hover, 
+.submit-btn:hover, 
+.download-btn:hover,
+button[type="submit"]:hover {
+    background-color: #a80808;
+    transform: translateY(-2px);
+}
+
+body {
+    background: linear-gradient(135deg, var(--black), #0a0a0a, #1a1a1a, #0a0a0a);
+    background-size: 400% 400%;
+    animation: gradientAnimation 30s ease infinite;
+    color: var(--white);
+    font-family: var(--main-font);
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.skill-card,
+.certificate-item,
+.project-img,
+.content-button,
+.experience-card,
+input, 
+textarea {
+    overflow: hidden;
+    font-family: var(--main-font);
+}
+
+.section-title,
+.page-title {
+    font-family: var(--main-font);
+    font-weight: 700;
+}
+
+.section-title::after,
+.page-title::after {
+    background-color: var(--red);
+}
+
+.navbar {
+    background-color: var(--black);
+    font-family: var(--main-font);
+}
+
+.logo {
+    font-family: var(--main-font);
+    font-weight: 700;
+}
+
+.nav-links li a {
+    font-family: var(--main-font);
+}
+
+.nav-links li a:hover {
+    color: var(--red);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--red);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a80808;
+}
+
+input, textarea, button {
+    font-family: var(--main-font);
+}

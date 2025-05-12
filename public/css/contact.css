@@ -1,0 +1,373 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.page-title {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+
+.contact-container {
+    display: flex;
+    gap: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contact-info {
+    flex: 1;
+    color: white;
+}
+
+.contact-info h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.contact-info p {
+    color: #aaaaaa;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.contact-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-method {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact-method svg {
+    width: 24px;
+    height: 24px;
+    color: #CF0A0A;
+}
+
+.contact-method span {
+    color: #cccccc;
+}
+
+.social-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.social-link:hover {
+    background-color: #CF0A0A;
+    transform: translateY(-3px);
+}
+
+.social-link svg {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+.contact-form-container {
+    flex: 1;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 1rem;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9rem;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: 2px solid #CF0A0A;
+}
+
+.submit-btn {
+    background-color: #CF0A0A;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 1rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #a80808;
+}
+
+.submit-btn:disabled {
+    background-color: #888;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Add a simple loading animation */
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.7; }
+    100% { opacity: 1; }
+}
+
+.submit-btn:disabled {
+    animation: pulse 1.5s infinite;
+}
+
+.back-btn {
+    display: inline-block;
+    background-color: #CF0A0A;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    margin-top: 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 0.9rem;
+}
+
+.back-btn:hover {
+    background-color: #a80808;
+    transform: translateY(-2px);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .social-links {
+        justify-content: center;
+    }
+}.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.page-title {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+
+.contact-container {
+    display: flex;
+    gap: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contact-info {
+    flex: 1;
+    color: white;
+}
+
+.contact-info h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.contact-info p {
+    color: #aaaaaa;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.contact-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-method {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact-method svg {
+    width: 24px;
+    height: 24px;
+    color: #CF0A0A;
+}
+
+.contact-method span {
+    color: #cccccc;
+}
+
+.social-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.social-link:hover {
+    background-color: #CF0A0A;
+    transform: translateY(-3px);
+}
+
+.social-link svg {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+.contact-form-container {
+    flex: 1;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 1rem;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9rem;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: 2px solid #CF0A0A;
+}
+
+.submit-btn {
+    background-color: #CF0A0A;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 1rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #a80808;
+}
+
+.submit-btn:disabled {
+    background-color: #888;
+    cursor: not-allowed;
+    transform: none;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.7; }
+    100% { opacity: 1; }
+}
+
+.submit-btn:disabled {
+    animation: pulse 1.5s infinite;
+}
+
+.back-btn {
+    display: inline-block;
+    background-color: #CF0A0A;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    margin-top: 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 0.9rem;
+}
+
+.back-btn:hover {
+    background-color: #a80808;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .social-links {
+        justify-content: center;
+    }
+}
+
+
+
+

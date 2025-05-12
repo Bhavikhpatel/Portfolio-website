@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Bhavik's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/common-styles.css">
+    <link rel="stylesheet" href="../css/projects.css">
+</head>
+<body></body>
+
+    <h1 class="page-title">My Projects</h1>
+    
+    <div class="container">
+        <div class="project-img">
+            <img src="../assets/images/project/carDetection1.png" alt="Car Detection 1">
+        </div>
+        <div class="project-img">
+            <img src="../assets/images/project/carDetection2.png" alt="Car Detection 2">
+        </div>
+        <div class="project-img">
+            <img src="../assets/images/project/carDetection3.png" alt="Car Detection 3">
+        </div>
+        <div class="project-explanation">
+            <h2>Car Detection with YOLO</h2>
+            <p>Built a real-time object detection system using the YOLO deep learning model to accurately identify and localize cars in various image conditions. The model was trained and optimized on a custom car dataset, incorporating techniques like IoU analysis and anchor box tuning for precise bounding box predictions.</p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="project-img">
+            <img src="../assets/images/project/triggerWord1.png" alt="Trigger Word 1">
+        </div>
+        <div class="project-img">
+            <img src="../assets/images/project/triggerWord2.png" alt="Trigger Word 2">
+        </div>
+        <div class="project-img">
+            <img src="../assets/images/project/triggerWord3.png" alt="Trigger Word 3">
+        </div>
+        <div class="project-explanation">
+            <h2>Trigger Word Detection</h2>
+            <p>Developed a wake-word detection system inspired by voice assistants like Siri and Alexa, using LSTM-based neural networks to identify the trigger word “activate” in audio recordings. Created a custom speech dataset and integrated real-time audio input with a chime-based feedback system to simulate smart assistant responsiveness.</p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="project-img">
+            <img src="../assets/images/project/transferLearning1.png" alt="Transfer Learning 1">
+        </div>
+        <div class="project-img">
+            <img src="../assets/images/project/transferLearning2.png" alt="Transfer Learning 2">
+        </div>
+        <div class="project-img">
+            <img src="../assets/images/project/transferLearning3.png" alt="Transfer Learning 3">
+        </div>
+        <div class="project-explanation">
+            <h2>Transfer Learning with MobileNet</h2>
+            <p>Utilized transfer learning with the MobileNet architecture to develop a lightweight image classifier that distinguishes between Alpaca and non-Alpaca images. This project demonstrated the power of pre-trained convolutional networks in achieving high accuracy with minimal training data.</p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="project-img">
+            <img src="../assets/images/project/ticTacToe1.png" alt="Tic Tac Toe 1">
+        </div>
+        <div class="project-img">
+            <img src="../assets/images/project/ticTacToe2.png" alt="Tic Tac Toe 2">
+        </div>
+        <div class="project-img">
+            <img src="../assets/images/project/ticTacToe3.png" alt="Tic Tac Toe 3">
+        </div>
+        <div class="project-explanation">
+            <h2>AI Tic Tac Toe</h2>
+            <p>Created a web-based Tic Tac Toe game with an unbeatable AI opponent using the Minimax algorithm and alpha-beta pruning for optimal move calculation. The game features an interactive Streamlit interface with real-time gameplay and sub-50ms AI responses for a seamless user experience.</p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="project-img">
+            <img src="../assets/images/project/webScrapping1.png" alt="Web Scraping 1">
+        </div>
+        <div class="project-img">
+            <img src="../assets/images/project/webScrapping2.png" alt="Web Scraping 2">
+        </div>
+        <div class="project-img">
+            <img src="../assets/images/project/webScrapping3.png" alt="Web Scraping 3">
+        </div>
+        <div class="project-explanation">
+            <h2>Web Automation and Scraping Tool</h2>
+            <p>Engineered an end-to-end automation bot that scrapes data from websites and uploads it to spreadsheets using Sheety API. Integrated Python, Selenium, BeautifulSoup, and a Tkinter-based GUI to streamline the data collection and processing pipeline.</p>
+        </div>
+    </div>
+
+    <a href="http://localhost:3000/home" class="back-btn">Back to Home</a>
+
+    <!-- JavaScript for menu toggle -->
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+            document.querySelector('.menu-toggle').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

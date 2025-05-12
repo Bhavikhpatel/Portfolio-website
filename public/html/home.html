@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavik's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/common-styles.css">
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Bhavik Patel</div>
+        <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="http://localhost:3000/skills">Skills</a></li>
+            <li><a href="http://localhost:3000/experience">Experience</a></li>
+            <li><a href="http://localhost:3000/projects">Projects</a></li>
+            <li><a href="http://localhost:3000/education">Education</a></li>
+            <li><a href="http://localhost:3000/certificates">Certifications</a></li>
+            <li><a href="http://localhost:3000/contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="home_container" class="container">
+        <div id="hero_section">
+            <div id="intro_container">
+                <p class="intro_text">Hello, My name is</p>
+                <p class="intro_text">Bhavik Patel</p>
+                <p class="intro_text">and I am</p>
+                <p id="role" class="intro_text"></p>
+            </div>
+
+            <div id="hero_image_container">
+                <div class="solid-rectangle">
+                    <div class="image-container">
+                        <img class="hero_img" src="../assets/images/bhavik_hero_img.png" alt="Bhavik's image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="about_section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container">                
+                <div class="about-content">
+                    <p>Hey, I’m Bhavik — a final-year AI & ML engineering student who enjoys building smart, meaningful things. I love working on projects that blend creativity and problem-solving, whether it’s automating something, exploring AI, or improving how things work. I’m always learning, always curious, and currently looking for an internship or job where I can grow, contribute, and be part of something impactful.</p>
+                    <a href="https://drive.google.com/file/d/1J7w623EFVS7kGEeM1ucwPzsCvwirpkYZ/view" target="_blank" class="download-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px; vertical-align: middle;">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                        Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="content">
+            <h2 class="section-title">Explore My Portfolio</h2>
+            <div class="content-grid">
+                <a href="http://localhost:3000/skills" class="content-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                    <span class="skills">Skills</span>
+                </a>
+                <a href="http://localhost:3000/experience" class="content-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                    <span class="experience">Experience</span>
+                </a>
+                <a href="http://localhost:3000/projects" class="content-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                    <span class="projects">Projects</span>
+                </a>
+                <a href="http://localhost:3000/education" class="content-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                    <span class="education">Education</span>
+                </a>
+                <a href="http://localhost:3000/certificates" class="content-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+                    <span class="certifications">Certifications</span>
+                </a>
+                <a href="http://localhost:3000/contact" class="content-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    <span class="contact">Contact Me</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="../js/typing-animation.js"></script>
+    <script src="../js/navigation.js"></script>
+</body>
+</html>

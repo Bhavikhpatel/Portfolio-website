@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavik's Education</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/education.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">My Education</h1>
+        
+        <div class="education-timeline">
+            <!-- First education item - Image left, text right -->
+            <div class="education-item">
+                <div class="education-image-container">
+                    <img src="../assets/images/education/amc.png" alt="University" class="education-image">
+                </div>
+                <div class="education-text-container">
+                    <div class="education-date">2021 - 2025</div>
+                    <div class="education-title">Bachelor of Engineering in Artificial Intelligence and Machine Learning</div>
+                    <div class="education-institution">AMC Engineering College</div>
+                    <!-- <div class="education-description"></div> -->
+                </div>
+            </div>
+            
+            <!-- Second education item - Text left, image right -->
+            <div class="education-item reverse">
+                <div class="education-image-container">
+                    <img src="../assets/images/education/jain.jpg" alt="College" class="education-image">
+                </div>
+                <div class="education-text-container">
+                    <div class="education-date">2019 - 2021</div>
+                    <div class="education-title">Pre University Course (Physics, Chemistry, Mathematics, Electronics)</div>
+                    <div class="education-institution">Jain College</div>
+                    <!-- <div class="education-description"></div> -->
+                </div>
+            </div>
+            
+            <!-- Third education item - Image left, text right -->
+            <div class="education-item">
+                <div class="education-image-container">
+                    <img src="../assets/images/education/aradhana.png" alt="High School" class="education-image">
+                </div>
+                <div class="education-text-container">
+                    <div class="education-date">2009 - 2019</div>
+                    <div class="education-title">Primary and Secondary Education</div>
+                    <div class="education-institution">Aradhana Academy</div>
+                    <!-- <div class="education-description"></div> -->
+                </div>
+            </div>
+        </div>
+        
+        <a href="http://localhost:3000/home" class="back-btn">Back to Home</a>
+    </div>
+    
+    <script>
+        // Simple animation script for fade-in effect
+        document.addEventListener('DOMContentLoaded', function() {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+            
+            setTimeout(() => {
+                document.querySelectorAll('.education-item').forEach(item => {
+                    observer.observe(item);
+                });
+            }, 100);
+        });
+    </script>
+</body>
+</html>
