@@ -2,7 +2,12 @@ import express from 'express';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 
-const baseURL = "http://localhost:3000";
+// Get port from environment variable for Render deployment
+const PORT = process.env.PORT || 3000;
+// Update baseURL to be dynamic based on environment
+const baseURL = process.env.NODE_ENV === 'production' 
+    ? process.env.RENDER_EXTERNAL_URL 
+    : `http://localhost:${PORT}`;
 
 const app = express();
 
@@ -14,7 +19,7 @@ app.use(express.static('public'));
 app.use(express.json()); // For parsing application/json
 
 // Routes for HTML pages
-app.get("/home", (req, res) => {
+app.get(["/","/home"], (req, res) => {
     res.sendFile('html/home.html', { root: process.cwd() + '/public' });
 });
 
@@ -42,6 +47,6 @@ app.get("/contact", (req, res) => {
     res.sendFile('html/contact.html', { root: process.cwd() + '/public' });
 });
 
-app.listen(3000, () => {
-    console.log('Server started on port 3000');}
+app.listen(PORT, () => {
+    console.log(`Server started on port ${PORT}`);
 );
