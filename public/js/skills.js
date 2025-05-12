@@ -18,19 +18,19 @@ document.addEventListener('DOMContentLoaded', function() {
             { name: "Pandas", image: "../assets/images/AI Libraries and Frameworks/pandas.png" },
             { name: "MatplotLib", image: "../assets/images/AI Libraries and Frameworks/matpoltlib.png" },
             { name: "Scikit-learn", image: "../assets/images/AI Libraries and Frameworks/scikit-learn.png" },
-            { name: "TensorFlow", image: "../assets/images/AI Libraries and Frameworks/tensorflow.png" },
+            { name: "TensorFlow", image: "../assets/images/AI Libraries and Frameworks/Tensorflow.png" },
             { name: "LangChain", image: "../assets/images/AI Libraries and Frameworks/langchain.svg" },
             { name: "Agno", image: "../assets/images/AI Libraries and Frameworks/agno.jpg" },
         ],
         webdev: [
             { name: "Node.js", image: "../assets/images/Web Development Libraries and Frameworks/Node.js.png" },
-            { name: "Express", image: "../assets/images/Web Development Libraries and Frameworks/express.png" },
+            { name: "Express", image: "../assets/images/Web Development Libraries and Frameworks/Express.png" },
             { name: "React", image: "../assets/images/Web Development Libraries and Frameworks/React.png" },
-            { name: "Flask", image: "../assets/images/Web Development Libraries and Frameworks/flask.png" },
+            { name: "Flask", image: "../assets/images/Web Development Libraries and Frameworks/Flask.png" },
             { name: "Beautiful Soup", image: "../assets/images/Web Development Libraries and Frameworks/beautifulsoup.png" },
             { name: "Jinja", image: "../assets/images/Web Development Libraries and Frameworks/jinja.svg" },
             { name: "ejs", image: "../assets/images/Web Development Libraries and Frameworks/ejs.svg" },
-            { name: "Selenium", image: "../assets/images/Web Development Libraries and Frameworks/selenium.png" },
+            { name: "Selenium", image: "../assets/images/Web Development Libraries and Frameworks/Selenium.png" },
             { name: "beautifulsoup", image: "../assets/images/Web Development Libraries and Frameworks/beautifulsoup.png"}
         ],
         databases: [
