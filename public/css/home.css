@@ -11,6 +11,14 @@ html, body {
     overflow-y: auto;
 }
 
+.intro_text{
+    font-weight: 100;
+}
+
+.name_text{
+    font-weight: 900;
+}
+
 body {
     background: linear-gradient(135deg, #000000, #0a0a0a, #1a1a1a, #0a0a0a);
     background-size: 400% 400%;
@@ -63,7 +71,7 @@ body {
 }
 
 #role {
-    color: yellow;
+    color: #DC5F00;
     font-weight: 800;
 }
 
@@ -111,7 +119,7 @@ body {
 }
 
 #role {
-    color: yellow;
+    color: #EEEEEE;
     font-weight: 800;
 }
 

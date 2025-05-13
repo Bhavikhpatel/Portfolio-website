@@ -27,7 +27,6 @@ document.addEventListener('DOMContentLoaded', function() {
             { name: "Express", image: "../assets/images/Web Development Libraries and Frameworks/Express.png" },
             { name: "React", image: "../assets/images/Web Development Libraries and Frameworks/React.png" },
             { name: "Flask", image: "../assets/images/Web Development Libraries and Frameworks/Flask.png" },
-            { name: "Beautiful Soup", image: "../assets/images/Web Development Libraries and Frameworks/beautifulsoup.png" },
             { name: "Jinja", image: "../assets/images/Web Development Libraries and Frameworks/jinja.svg" },
             { name: "ejs", image: "../assets/images/Web Development Libraries and Frameworks/ejs.svg" },
             { name: "Selenium", image: "../assets/images/Web Development Libraries and Frameworks/Selenium.png" },

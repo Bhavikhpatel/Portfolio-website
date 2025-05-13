@@ -89,6 +89,7 @@
     color: #aaaaaa;
     font-size: 1rem;
     line-height: 1.6;
+    text-align: left;
 }
 
 .work-section {
@@ -223,3 +224,4 @@ a {
     height: 15px;
     margin-bottom: 3px;
 }
+
