@@ -1,12 +1,12 @@
 {
-"$schema": "https://openapi.vercel.sh/vercel.json",
-"version": 2,
-"functions": {
-"api/index.js": {
-"runtime": "nodejs18.x"
-}
-},
-"rewrites": [
-{ "source": "/(.*)", "destination": "/api" }
-]
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "version": 2,
+  "functions": {
+    "api/index.js": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api" }
+  ]
 }
