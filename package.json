@@ -1,17 +1,16 @@
 {
-  "name": "portfoliowebsite",
-  "version": "1.0.0",
-  "description": "bhavik's portfolio website",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node routes/index.js"
-  },
-  "author": "Bhavik H Patel",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^5.1.0",
-    "nodemailer": "^7.0.3"
-  }
+"name": "portfoliowebsite",
+"version": "1.0.0",
+"description": "bhavik's portfolio website",
+"type": "module",
+"scripts": {
+"dev": "vercel dev",
+"lint": "echo "no lint configured""
+},
+"author": "Bhavik H Patel",
+"license": "ISC",
+"dependencies": {
+"express": "^4.18.4",
+"nodemailer": "^7.0.3"
+}
 }
