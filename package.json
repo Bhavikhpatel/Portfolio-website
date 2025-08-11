@@ -4,8 +4,7 @@
 "description": "bhavik's portfolio website",
 "type": "module",
 "scripts": {
-"dev": "vercel dev",
-"lint": "echo "no lint configured""
+"dev": "vercel dev"
 },
 "author": "Bhavik H Patel",
 "license": "ISC",
